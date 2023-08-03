@@ -1,0 +1,57 @@
+= Notes
+Thabo Ndashe
+3.0, August 3, 2023: AsciiDoc article template
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+
+
+==== A capable backend
+
+1. intercept requests
+2. extract data from requests
+3. process the request
+4. pull necessary data from database
+5. process the data and prepare response
+6. return the response
+
+
+==== What we need
+
+1. a programming language
+2. a server runtime .
+3. a framework to handle common concerns
+4. a a framework to interact with the database
+5. a framework to handle security
+6. a a framework to manage infrastructure(microservices)
+
+==== Github Workflow
+side note -> rebase best practice
+
+Pull Request Flow
+
+1. fork the repo
+2. clone the repo
+3. create a new branch
+4. make your changes
+5. push the changes
+7. create a pull request
+8. review and discuss
+9. merge or decline
+10. update and delete the branch
+
+==== Serverside Rendering(SSR)
+
+Most rendering in modern ui's  rendering is done by the frontend
+
+cons -> SEO
+
+pros -> ssr tries to avoid the first render and in some cases allows  client to do some rendering(javascript).
+
+
+==== Understanding Github workflow
+
+
+
+
